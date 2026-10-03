@@ -4,10 +4,8 @@ import { HeroSection } from '@/components/hero-section';
 import { CountdownSection } from '@/components/countdown-section';
 import { LocationSection } from '@/components/location-section';
 import { GallerySection } from '@/components/gallery-section';
-import { RsvpSection } from '@/components/rsvp-section';
 import { AccountSection } from '@/components/account-section';
 import { ShareSection } from '@/components/share-section';
-import { ContactSection } from '@/components/contact-section';
 import { FooterSection } from '@/components/footer-section';
 
 export default function Home() {
@@ -36,10 +34,8 @@ export default function Home() {
         <CountdownSection config={siteConfig} />
         <LocationSection config={siteConfig} />
         <GallerySection config={siteConfig} />
-        <RsvpSection config={siteConfig} />
         <AccountSection config={siteConfig} />
         <ShareSection config={siteConfig} />
-        <ContactSection config={siteConfig} />
         <FooterSection config={siteConfig} />
       </main>
     </>

@@ -137,7 +137,7 @@ export const siteConfig = {
   rsvpButtonLabel: '참석 여부 알리기',
 
   // footer
-  closingMessage: '저희 두 사람의 새로운 시작을 함께해 주셔서 감사합니다',
-  closingMessageEn: 'Thank you for celebrating the beginning of our new journey together.',
+  closingMessage: '저희 청소년부의 J페스티벌에 함께 해주시고 기도해 주시면 감사하겠습니다 ',
+  closingMessageEn: '',
   showPoweredBy: true,
 };
