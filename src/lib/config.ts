@@ -65,7 +65,7 @@ export const siteConfig = {
   designPreset: 'elegant-gold',
   title: process.env.NEXT_PUBLIC_TITLE || '2026 J-FESTIVAL',
   titleEn: '',
-  subtitle: process.env.NEXT_PUBLIC_SUBTITLE || '초대합니다.                                                                                우리의 실력을 자랑함이 아닌 주님을 높여드리기를 원합니다',
+  subtitle: process.env.NEXT_PUBLIC_SUBTITLE || '우리의 실력을 자랑함이 아닌 주님을 높여드리기를 원합니다',
   subtitleEn: '',
   heroImageUrl: `${_basePath}/images/1791006556401-upload.webp`,
   gradientFrom: '#F3E8CF',
