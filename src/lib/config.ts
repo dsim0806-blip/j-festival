@@ -97,12 +97,15 @@ export const siteConfig = {
 
   // gallery
   galleryImages: parseJSON<string[]>(process.env.NEXT_PUBLIC_GALLERY, [
-  'https://images.unsplash.com/photo-1571753217197-b28b8f889b7a?auto=format&fit=crop&w=800&q=75',
-  'https://images.unsplash.com/photo-1541538670337-c53313ad7c00?auto=format&fit=crop&w=800&q=75',
-  'https://images.unsplash.com/photo-1596457221755-b96bc3a6df18?auto=format&fit=crop&w=800&q=75',
-  'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?auto=format&fit=crop&w=800&q=75',
-  'https://images.unsplash.com/photo-1591604442449-ecc9943efabf?auto=format&fit=crop&w=800&q=75',
-  'https://images.unsplash.com/photo-1535185384036-28bbc8035f28?auto=format&fit=crop&w=800&q=75'
+  `${_basePath}/images/1791007357788-upload.webp`,
+  `${_basePath}/images/1791007398668-upload.webp`,
+  `${_basePath}/images/1791007423671-upload.webp`,
+  `${_basePath}/images/1791007459104-upload.webp`,
+  `${_basePath}/images/1791007485703-upload.webp`,
+  `${_basePath}/images/1791007510878-upload.webp`,
+  `${_basePath}/images/1791007544399-upload.webp`,
+  `${_basePath}/images/1791007583277-upload.webp`,
+  `${_basePath}/images/1791007664690-upload.webp`
 ]),
   galleryColumns: 3,
 
