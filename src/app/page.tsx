@@ -5,7 +5,6 @@ import { CountdownSection } from '@/components/countdown-section';
 import { LocationSection } from '@/components/location-section';
 import { GallerySection } from '@/components/gallery-section';
 import { ShareSection } from '@/components/share-section';
-import { FooterSection } from '@/components/footer-section';
 
 export default function Home() {
   return (
@@ -34,7 +33,6 @@ export default function Home() {
         <LocationSection config={siteConfig} />
         <GallerySection config={siteConfig} />
         <ShareSection config={siteConfig} />
-        <FooterSection config={siteConfig} />
       </main>
     </>
   );
