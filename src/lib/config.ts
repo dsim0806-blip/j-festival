@@ -73,10 +73,10 @@ export const siteConfig = {
   fontFamily: 'Nanum Myeongjo',
 
   // dday
-  eventDate: '2026-12-19',
-  eventTime: '14:00',
-  eventDateLabel: '2026년 12월 19일 토요일 오후 2시',
-  eventDateLabelEn: 'Saturday, December 19, 2026 at 2:00 PM',
+  eventDate: '2026-10-24',
+  eventTime: '17:00',
+  eventDateLabel: '2026년 10월 24일 토요일 오후 5시',
+  eventDateLabelEn: '',
   showCountdown: true,
   countdownStyle: 'flip' as 'flip' | 'simple',
 
