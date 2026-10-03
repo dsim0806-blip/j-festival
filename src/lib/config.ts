@@ -61,13 +61,13 @@ const DEMO_CONTACTS: ContactItem[] = [
 
 export const siteConfig = {
   // hero
-  eventType: process.env.NEXT_PUBLIC_EVENT_TYPE || 'wedding',
+  eventType: process.env.NEXT_PUBLIC_EVENT_TYPE || 'custom',
   designPreset: 'elegant-gold',
-  title: process.env.NEXT_PUBLIC_TITLE || '저희, 결혼합니다',
-  titleEn: 'We\'re Getting Married',
-  subtitle: process.env.NEXT_PUBLIC_SUBTITLE || '여섯 번의 계절을 함께 걸어온 두 사람이 이제 같은 이름의 겨울을 맞이합니다',
-  subtitleEn: 'Two people who have walked through six seasons together now welcome a winter under one shared name.',
-  heroImageUrl: 'https://images.unsplash.com/photo-1517456363055-5d162a453d6d?auto=format&fit=crop&w=1080&q=80',
+  title: process.env.NEXT_PUBLIC_TITLE || '2026 J-FESTIVAL',
+  titleEn: '',
+  subtitle: process.env.NEXT_PUBLIC_SUBTITLE || '우리의 실력을 자랑함이 아닌 주님을 높여드리기를 원합니다',
+  subtitleEn: '',
+  heroImageUrl: `${_basePath}/images/1791006556401-upload.webp`,
   gradientFrom: '#F3E8CF',
   gradientTo: '#FBF7F0',
   fontFamily: 'Nanum Myeongjo',
