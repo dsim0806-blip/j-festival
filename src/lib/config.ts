@@ -129,7 +129,7 @@ export const siteConfig = {
   shareTitleEn: 'Share',
   enableKakao: true,
   enableCopy: true,
-  enableQr: false,
+  enableQr: true,
   kakaoJsKey: '',
 
   // rsvp
