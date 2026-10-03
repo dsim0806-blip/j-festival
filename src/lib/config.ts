@@ -86,14 +86,14 @@ export const siteConfig = {
   hosts: parseJSON<HostItem[]>(process.env.NEXT_PUBLIC_HOSTS, DEMO_HOSTS),
 
   // location
-  venueName: '라온제나 홀 3F 그랜드볼룸',
-  venueNameEn: 'Raonjena Hall, 3F Grand Ballroom',
-  venueAddress: '서울 강남구 테헤란로 129',
-  venueAddressEn: '129 Teheran-ro, Gangnam-gu, Seoul',
+  venueName: '안양교회 본당 2층',
+  venueNameEn: '',
+  venueAddress: '경기도 안양시 동안구 동편로 49번길 24',
+  venueAddressEn: '',
   kakaoMapUrl: '',
-  naverMapUrl: '',
-  parkingInfo: '건물 지하 2~4층, 2시간 무료(안내데스크 등록)',
-  transitInfo: '지하철 2호선·신분당선 강남역 3번 출구 도보 5분 · 버스 강남역사거리 정류장 하차',
+  naverMapUrl: 'https://map.naver.com/p/search/%EC%95%88%EC%96%91%EA%B5%90%ED%9A%8C/place/692335633?placePath=%2Fhome%3Fbk_query%3D%EC%95%88%EC%96%91%EA%B5%90%ED%9A%8C%26entry%3Dbmp%26from%3Dmap%26fromPanelNum%3D2%26timestamp%3D202610031456%26locale%3Dko%26svcName%3Dmap_pcv5%26searchText%3D%EC%95%88%EC%96%91%EA%B5%90%ED%9A%8C',
+  parkingInfo: '건물 지하 2~3층',
+  transitInfo: '지하철 4호선 인덕원역 8번 출구 도보 10분 · 버스 60-1번,80번,마을버스8번 강남역사거리 정류장 하차',
 
   // gallery
   galleryImages: parseJSON<string[]>(process.env.NEXT_PUBLIC_GALLERY, [

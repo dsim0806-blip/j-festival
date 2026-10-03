@@ -2,7 +2,6 @@ import { siteConfig } from '@/lib/config';
 import { MessageSection } from '@/components/message-section';
 import { HeroSection } from '@/components/hero-section';
 import { CountdownSection } from '@/components/countdown-section';
-import { HostsSection } from '@/components/hosts-section';
 import { LocationSection } from '@/components/location-section';
 import { GallerySection } from '@/components/gallery-section';
 import { RsvpSection } from '@/components/rsvp-section';
@@ -35,7 +34,6 @@ export default function Home() {
         <MessageSection config={siteConfig} />
         <HeroSection config={siteConfig} />
         <CountdownSection config={siteConfig} />
-        <HostsSection config={siteConfig} />
         <LocationSection config={siteConfig} />
         <GallerySection config={siteConfig} />
         <RsvpSection config={siteConfig} />
